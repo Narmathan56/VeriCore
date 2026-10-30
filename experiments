@@ -1,0 +1,5 @@
+from sympy import Symbol, solveset, S
+x = Symbol('x')
+for  expression  in (2*x - 4, 0, 1):
+    solutions=solveset(expression, x, domain = S.Reals)
+    print(expression,":", solutions)
