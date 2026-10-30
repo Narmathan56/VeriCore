@@ -1,0 +1,342 @@
+[
+  {
+    "id": "adv_improper_integral_01",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(1+x**2) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0
+    ],
+    "expected_exact": "0",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(1+x**2)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Split at 1 and use x=1/u.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_02",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)**2/(1+x**2) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      3.875784585037477
+    ],
+    "expected_exact": "pi**3/8",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)**2/(1+x**2)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate the beta integral twice.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_03",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(x**2+4) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0.5443965225759005
+    ],
+    "expected_exact": "pi*log(2)/4",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(x**2+4)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Scale x=2*t and use reciprocal symmetry.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_04",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(1+x)**2 with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0
+    ],
+    "expected_exact": "0",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(1+x)**2",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Use reciprocal symmetry.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_05",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)**2/(1+x)**2 with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      3.289868133696453
+    ],
+    "expected_exact": "pi**2/3",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)**2/(1+x)**2",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate Gamma(a)*Gamma(2-a) twice at a=1.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_06",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(1+x**2)**2 with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      -0.7853981633974483
+    ],
+    "expected_exact": "-pi/4",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(1+x**2)**2",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate Gamma(a/2)*Gamma(2-a/2)/2 at a=1.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_07",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of x*log(x)/(1+x**2)**2 with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0
+    ],
+    "expected_exact": "0",
+    "integral": {
+      "variable": "x",
+      "integrand": "x*log(x)/(1+x**2)**2",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Substitute t=x**2 and use reciprocal symmetry.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_08",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of 1/(1+x**4) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      1.1107207345395915
+    ],
+    "expected_exact": "pi/(2*sqrt(2))",
+    "integral": {
+      "variable": "x",
+      "integrand": "1/(1+x**4)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Use the beta integral.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_09",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(1+x**4) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      -0.8723580249548598
+    ],
+    "expected_exact": "-pi**2/(8*sqrt(2))",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(1+x**4)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate pi/(4*sin(pi*a/4)) at a=1.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_10",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of x*log(x)/(1+x**4) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0
+    ],
+    "expected_exact": "0",
+    "integral": {
+      "variable": "x",
+      "integrand": "x*log(x)/(1+x**4)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Substitute t=x**2 and use reciprocal symmetry.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_11",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of 1/(sqrt(x)*(1+x)) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      3.141592653589793
+    ],
+    "expected_exact": "pi",
+    "integral": {
+      "variable": "x",
+      "integrand": "1/(sqrt(x)*(1+x))",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Substitute x=t**2.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_12",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(sqrt(x)*(1+x)) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0
+    ],
+    "expected_exact": "0",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(sqrt(x)*(1+x))",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Use reciprocal symmetry.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_13",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)**2/(sqrt(x)*(1+x)) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      31.006276680299816
+    ],
+    "expected_exact": "pi**3",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)**2/(sqrt(x)*(1+x))",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate pi/sin(pi*a) twice at a=1/2.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_14",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of (exp(-x)-exp(-2*x))/x with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0.6931471805599453
+    ],
+    "expected_exact": "log(2)",
+    "integral": {
+      "variable": "x",
+      "integrand": "(exp(-x)-exp(-2*x))/x",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Integrate exp(-t*x) first over t from 1 to 2, then over x.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_15",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of (exp(-2*x)-exp(-5*x))/x with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0.9162907318741551
+    ],
+    "expected_exact": "log(5/2)",
+    "integral": {
+      "variable": "x",
+      "integrand": "(exp(-2*x)-exp(-5*x))/x",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Integrate exp(-t*x) first over t from 2 to 5, then over x.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_16",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of exp(-x)*log(x) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      -0.5772156649015329
+    ],
+    "expected_exact": "-EulerGamma",
+    "integral": {
+      "variable": "x",
+      "integrand": "exp(-x)*log(x)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate Gamma(a) at a=1.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_17",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of x*exp(-x)*log(x) with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      0.42278433509846713
+    ],
+    "expected_exact": "1-EulerGamma",
+    "integral": {
+      "variable": "x",
+      "integrand": "x*exp(-x)*log(x)",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Differentiate Gamma(a) at a=2.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_18",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(1+x)/(1+x)**2 with respect to x from 0 to infinity. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      1
+    ],
+    "expected_exact": "1",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(1+x)/(1+x)**2",
+      "lower": "0",
+      "upper": "oo"
+    },
+    "reference_method": "Integrate by parts.",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_19",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)**2 with respect to x from 0 to 1. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      2
+    ],
+    "expected_exact": "2",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)**2",
+      "lower": "0",
+      "upper": "1"
+    },
+    "reference_method": "Substitute x=exp(-t).",
+    "convergence": "absolutely convergent"
+  },
+  {
+    "id": "adv_improper_integral_20",
+    "topic": "advanced_improper_integrals",
+    "question": "Evaluate the improper integral of log(x)/(1-x) with respect to x from 0 to 1. Here log denotes the natural logarithm. Justify convergence at every improper endpoint and give the value as a decimal accurate to at least 8 decimal places.",
+    "expected": [
+      -1.6449340668482264
+    ],
+    "expected_exact": "-pi**2/6",
+    "integral": {
+      "variable": "x",
+      "integrand": "log(x)/(1-x)",
+      "lower": "0",
+      "upper": "1"
+    },
+    "reference_method": "Expand 1/(1-x) and integrate to obtain -zeta(2).",
+    "convergence": "absolutely convergent"
+  }
+]
